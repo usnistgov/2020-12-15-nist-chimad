@@ -43,6 +43,12 @@
           {{page.helper | join: ', ' %}}
           </p>
           {% endif %}
+          {% if page.organizer %}
+          <p>
+          <strong>Organizers:</strong>
+          {{page.organizer | join: ', ' %}}
+          </p>
+          {% endif %}
         </div>
       </div>
     </div>
